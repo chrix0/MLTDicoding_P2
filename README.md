@@ -615,10 +615,10 @@ Tabel 24. Data-data input untuk menguji hasil rekomendasi
 |6711|59118|Happy-Go-Lucky \(2008\)|Comedy,Drama|3\.5|
 |8264|106002|Ender's Game \(2013\)|Action,Adventure,Sci-Fi,IMAX|3\.44|
 
-Berikut hasil pengujian model Content Based Filtering yang telah dibuat dengan metrik Prediction@k dalam bentuk persen dengan k = 5.
+Berikut hasil pengujian model Content Based Filtering yang telah dibuat dengan metrik Precision@k dalam bentuk persen dengan k = 5.
 
-Tabel 25. Hasil pengujian dengan Prediction@5
-|index|Nilai Prediction@k %|
+Tabel 25. Hasil pengujian dengan Precision@5
+|index|Nilai Precision@5 %|
 |---|---|
 |0|100\.0|
 |1|100\.0|
