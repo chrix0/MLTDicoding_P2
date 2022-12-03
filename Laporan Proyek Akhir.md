@@ -10,6 +10,7 @@ Salah satu aspek yang perlu diperhatikan oleh penyedia layanan streaming film ad
 
 Permasalahan tersebut penting untuk diselesaikan karena hal tersebut dapat mempengaruhi *User Experience* (UX) dalam menggunakan aplikasi *streaming* film. Pencarian film secara berulang kali untuk menemukan film yang sesuai dengan preferensi tentu akan merepotkan pengguna serta membutuhkan waktu yang lama. UX yang buruk akan berpengaruh terhadap *Customer Loyalty*, yang menentukan apakah pengguna tersebut akan kembali membeli untuk menggunakan fitur-fitur dalam aplikasi SVOD [5]. Salah satu solusi yang dapat digunakan untuk menyelesaikan permasalahan tersebut adalah menyediakan fitur yang dapat memberikan rekomendasi berdasarkan kategori atau genre dari film yang disukai dan memberikan rekomendasi film yang belum pernah ditonton berdasarkan penilaian (*rating*) oleh pengguna lain dengan memanfaatkan *machine learning* dengan akurasi yang tinggi. Dengan solusi tersebut, pengguna dapat lebih mudah membuat keputusan saat memilih film yang ingin ditonton.
 
+
 ## Business Understanding
 
 ### Problem Statements
