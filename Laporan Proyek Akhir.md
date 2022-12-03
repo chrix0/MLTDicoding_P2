@@ -589,7 +589,7 @@ Kedua model tersebut menghasilkan rekomendasi yang sangat berbeda. Model KNN mem
 
 ### 1. Content Based Filtering
 
-Model Content Based Filtering yang dihasilkan akan diuji dengan metrik evaluasi *Prediction at k* (Prediction@k). Prediction@k merupakan pembagian jumlah item relevan yang direkomendasikan dengan jumlah rekomendasi yang diberikan [11]. Berikut formula dari metrik tersebut.
+Model Content Based Filtering yang dihasilkan akan diuji dengan metrik evaluasi *Precision at k* (Precision@k). Precision@k merupakan pembagian jumlah item relevan yang direkomendasikan dengan jumlah rekomendasi yang diberikan [11]. Berikut formula dari metrik tersebut.
 
 ![Formula Precision@k](https://i.ibb.co/3SwbdDG/precisionatkform.png)
 
@@ -615,10 +615,10 @@ Tabel 24. Data-data input untuk menguji hasil rekomendasi
 |6711|59118|Happy-Go-Lucky \(2008\)|Comedy,Drama|3\.5|
 |8264|106002|Ender's Game \(2013\)|Action,Adventure,Sci-Fi,IMAX|3\.44|
 
-Berikut hasil pengujian model Content Based Filtering yang telah dibuat dengan metrik Prediction@k dalam bentuk persen dengan k = 5.
+Berikut hasil pengujian model Content Based Filtering yang telah dibuat dengan metrik Precision@k dalam bentuk persen dengan k = 5.
 
-Tabel 25. Hasil pengujian dengan Prediction@5
-|index|Nilai Prediction@k %|
+Tabel 25. Hasil pengujian dengan Precision@5
+|index|Nilai Precision@k %|
 |---|---|
 |0|100\.0|
 |1|100\.0|
@@ -631,7 +631,7 @@ Tabel 25. Hasil pengujian dengan Prediction@5
 |8|100\.0|
 |9|100\.0|
 
-Semua hasil pengujian dengan Prediction@5 memiliki nilai 100%. Hal ini menunjukkan bahwa model tersebut dapat memberikan rekomendasi film berdasarkan genre yang dipilih atau disukai dengan akurat. 
+Semua hasil pengujian dengan Precision@5 memiliki nilai 100%. Hal ini menunjukkan bahwa model tersebut dapat memberikan rekomendasi film berdasarkan genre yang dipilih atau disukai dengan akurat. 
 
 ### 2. Collaborative Filtering
 
