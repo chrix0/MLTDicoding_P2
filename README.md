@@ -589,7 +589,7 @@ Kedua model tersebut menghasilkan rekomendasi yang sangat berbeda. Model KNN mem
 
 ### 1. Content Based Filtering
 
-Model Content Based Filtering yang dihasilkan akan diuji dengan metrik evaluasi *Presicion at k* (Presicion@k). Presicion@k merupakan pembagian jumlah item relevan yang direkomendasikan dengan jumlah rekomendasi yang diberikan [11]. Berikut formula dari metrik tersebut.
+Model Content Based Filtering yang dihasilkan akan diuji dengan metrik evaluasi *Precision at k* (Precision@k). Precision@k merupakan pembagian jumlah item relevan yang direkomendasikan dengan jumlah rekomendasi yang diberikan [11]. Berikut formula dari metrik tersebut.
 
 ![Formula Precision@k](https://i.ibb.co/3SwbdDG/precisionatkform.png)
 
