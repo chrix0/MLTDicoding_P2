@@ -631,7 +631,7 @@ Tabel 25. Hasil pengujian dengan Precision@5
 |8|100\.0|
 |9|100\.0|
 
-Semua hasil pengujian dengan Prediction@5 memiliki nilai 100%. Hal ini menunjukkan bahwa model tersebut dapat memberikan rekomendasi film berdasarkan genre yang dipilih atau disukai dengan akurat. 
+Semua hasil pengujian dengan Precision@5 memiliki nilai 100%. Hal ini menunjukkan bahwa model tersebut dapat memberikan rekomendasi film berdasarkan genre yang dipilih atau disukai dengan akurat. 
 
 ### 2. Collaborative Filtering
 
